@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lugares de Canadá</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #c2ced7;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    header {
+      background-color: #12223b;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #0a0b0b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .table th {
+      background-color: #a0242d;
+      color: white;
+      text-align: center;
+    }
+    .table td {
+      text-align: center;
+    }
+    section {
+      margin-top: 60px;
+    }
+    .mini-carousel {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  .mini-carousel img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Descubre Lugares Increíbles de Canadá</h1>
+  <p>Explora paisajes, ciudades y maravillas naturales</p>
+</header>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Canadá</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#monumentos">Monumentos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#sitios">Sitios Turísticos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gastronomia">Gastronomía</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container my-5">
+
+  <div id="canadaCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://i.pinimg.com/736x/d9/ea/fc/d9eafc72be15b5f0b5c31b819275d7ba.jpg" class="d-block w-100" alt="Banff">
+      </div>
+      <div class="carousel-item">
+        <img src="https://turismo.euskadi.eus/contenidos/noticia/0000086421_o1_rec_turismo/es_86421/images/Vitoria_640x315.jpg" class="d-block w-100" alt="Niagara">
+      </div>
+      <div class="carousel-item">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Mount_Garibaldi_%2850997016501%29.jpg" class="d-block w-100" alt="Quebec">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#canadaCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#canadaCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+ 
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Ciudad</th>
+        <th>Provincia</th>
+        <th>Atractivo Principal</th>
+        <th>Idioma Predominante</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><th>1</th>
+        <td>Toronto</td>
+        <td>Ontario</td>
+        <td>Torre CN y multiculturalismo</td>
+        <td>Inglés</td></tr>
+      <tr><th>2</th>
+        <td>Montreal</td>
+        <td>Quebec</td>
+        <td>Festival de Jazz y arquitectura europea</td><td>Francés</td>
+    </tr>
+      <tr><th>3</th>
+        <td>Vancouver</td>
+        <td>Columbia Británica</td>
+        <td>Montañas y costa del Pacífico</td>
+        <td>Inglés</td></tr>
+      <tr><th>4</th><td>Ottawa</td>
+        <td>Ontario</td><td>Parlamento y museos nacionales</td><td>Inglés y Francés</td></tr>
+    </tbody>
+  </table>
+ <section id="monumentos">
+  <h2 class="text-center"> Monumentos de Canadá</h2>
+  <p class="text-center">Explora íconos como el Parlamento, la Torre CN y el Château Frontenac.</p>
+
+  <div id="carouselMonumentos" class="carousel slide mini-carousel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://quieroviajarsola.com/wp-content/uploads/2022/06/Que-ver-en-Ottawa-The-famous-five.webp" class="d-block w-100" alt="Parlamento">
+      </div>
+      <div class="carousel-item">
+        <img src="https://fotografias.lasexta.com/clipping/cmsimages02/2024/06/25/8796A6E4-29ED-490B-8139-41773CFA7F21/torre-paz-ottawa_98.jpg?crop=1280,720,x0,y122&width=1900&height=1069&optimize=high&format=webply" class="d-block w-100" alt="Torre CN">
+      </div>
+      <div class="carousel-item">
+        <img src="https://media.istockphoto.com/id/481190040/es/foto/el-monumento-nacional-de-guerra-en-ottawa-canad%C3%A1.jpg?s=612x612&w=is&k=20&c=RZzYzHxJEiBxsd5OuLa0_lSPVzlfokgkaHmaKeqm3-k=" class="d-block w-100" alt="Château Frontenac">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselMonumentos" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselMonumentos" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </section>
+</section>
+</div>
+    
+  </section>
+    <section id="sitios">
+  <h2 class="text-center mt-5"> Sitios Turísticos</h2>
+  <p class="text-center">Desde las Cataratas del Niágara hasta los parques nacionales.</p>
+
+  <div id="carouselSitios" class="carousel slide mini-carousel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/28/52/00/caption.jpg?w=1200&h=-1&s=1" class="d-block w-100" alt="Niágara">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx2yG9M94_Fjkda3WzhddgbI7CMGLfllV0BA&s" class="d-block w-100" alt="park">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.shutterstock.com/image-photo/ottawa-ontario-october-21-2022-260nw-2222306651.jpg" alt="park">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSitios" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselSitios" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+    <section id="gastronomia">
+  <h2 class="text-center mt-5"> Gastronomía Canadiense</h2>
+  <p class="text-center">Del poutine al jarabe de arce, ¡una delicia multicultural!</p>
+
+  <div id="carouselGastronomia" class="carousel slide mini-carousel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://thumbs.dreamstime.com/b/delicias-t%C3%ADpicas-del-canad%C3%A1-poutina-y-jarabe-de-arce-escena-laica-explora-los-platos-t%C3%ADpicos-canadeses-en-un-acogedor-estrado-293222434.jpg" class="d-block w-100" alt="Poutine">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMW5LPlN4VaNqjGxtg-hOFowHw8ojh3hRKFQ&s" class="d-block w-100" alt="Jarabe de arce">
+      </div>
+      <div class="carousel-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAyxYpd7yptJVPrAjSMjcHILEi7lmHc_P2VQ&s" class="d-block w-100" alt="Carne ahumada">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGastronomia" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselGastronomia" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+</div>
+<div 
+      class="text-center my-4">
+        <a href="index.html" class="btn btn-success btn-lg">Volver a la página principal</a>
+      </div>
+<footer>
+  <p>&copy; 2025 Explorando Canadá | contacto@exploracanada.com</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

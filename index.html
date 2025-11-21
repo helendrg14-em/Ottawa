@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OTTAWA-CANADA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .Enca{
+          background-color: black;
+          color: azure;
+          text-align: center;
+          padding: 20px;
+      }
+      .Titulo{
+          font-size: 3rem ;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .fondo {
+          background-image: url('https://media.admagazine.com/photos/667a47263b81b7343c04a99f/16:9/w_2992,h_1683,c_limit/Canad%C3%A1%20en%20el%20oto%C3%B1o.jpg'); 
+          background-size: cover; 
+          background-position: center; 
+          background-repeat: no-repeat; 
+          color: white; 
+          padding: 10px 10px; 
+          min-height: 500px; 
+          opacity: 0.9;
+      }
+      .fondo .contenido {
+          position: relative;
+          z-index: 1;
+          color: #040101;
+          text-align: center;
+          padding: 20px 0px;
+          background-color: rgb(237, 237, 229);
+      }
+      .centrado {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 15px;
+          margin-bottom: 40px;
+      }
+      #sub2{
+        text-align: center;
+        padding: 20px;
+        font-family: algerian;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="Enca">
+        <h1 class="Titulo">CONOCE CANADA Y SU CIUDAD CAPITAL "OTTAWA"</h1>
+
+        <button class="btn btn-warning mt-2" data-bs-toggle="modal" data-bs-target="#modalBienvenida">
+          🎉 ¡Bienvenido!
+        </button>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary mt-3">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">INICIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="historia.html">HISTORIA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="geografia.html">GEOGRAFIA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="curiosidades.html">CURIOSIDADES</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">LUGARES</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="lugares.html#monumentos">MONUMENTOS</a></li>
+                    <li><a class="dropdown-item" href="lugares.html#sitios">SITIOS TURÍSTICOS</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="lugares.html#gastronomia">GASTRONOMÍA</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar">
+                <button class="btn btn-outline-success">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <main>
+      
+        <div class="fondo"> <article class="contenido"> <h2>Conoce un poco sobre Canada</h2> <p id="Con1">Canadá es el país norteamericano que se extiende desde los Estados Unidos en el sur hasta el círculo polar ártico en el norte. Las ciudades principales incluyen la enorme Toronto, Vancouver, el centro cinematográfico de la costa oeste, las ciudades de habla francesa Montreal y Quebec, y la capital Ottawa. Las vastas franjas de naturaleza de Canadá incluyen el Parque Nacional Banff ubicado en un lago en las Montañas Rocosas. También incluye las cataratas del Niágara, un famoso grupo de enormes cascadas.</p> </article> <div class="container my-5 contenido-cajas"> <div class="row mb-4"> <div class="col-md-6 mb-3"> <div class="card h-100"> <img id="Bandera" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Flag_of_Ottawa%2C_Ontario.svg/1280px-Flag_of_Ottawa%2C_Ontario.svg.png" class="card-img-top" alt="Paisaje de Canadá"> <h5 class="card-title"><center> Bandera de Otawa</center></h5> <div class="card-body"> <p id="Bandera" class="card-text">La bandera de Ottawa es azul con una "O" blanca estilizada en el centro, que simboliza la hoja de arce y la Torre de la Paz. La bandera de Canadá, que es roja con una hoja de arce roja en el centro, se conoce como Hoja de Arce (Maple Leaf o l'Unifolié)</p> </div> </div> </div> <div class="col-md-6 mb-3"> <div class="card h-100"> <div class="card-body"> <img id="Bandera" src="https://stylemapvancouver.travesiasdigital.com/wp-content/uploads/2019/08/otono-01.jpg" class="card-img-top" alt="Paisaje de Canadá"> <h5 class="card-title"><center> Lo que destaca de Canada</center></h5> <p id="arbol" class="card-text">Canadá tiene diversos árboles, destacándose el arce, cuya hoja es el símbolo nacional y se usa para producir el sirope de arce. Otros árboles importantes son las coníferas como el pino, el abeto y el cedro, comunes en sus extensos bosques. Los árboles se clasifican en coníferos (de hoja perenne) y caducifolios (que pierden sus hojas en otoño). </p> </div> </div> </div> </div> </div>
+      <div class="container my-5">
+        <aside>
+          <ul class="list-group">
+            <li class="list-group-item">Es famoso por su belleza natural</li>
+            <li class="list-group-item">Majestuosas montañas</li>
+            <li class="list-group-item">Bosques vírgenes</li>
+            <li class="list-group-item">Lagos espectaculares</li>
+          </ul>
+
+          <h2 class="mt-4 text-center">Déjanos tu correo electrónico para registrarte</h2>
+        </aside>
+
+        <div class="centrado">
+          <div class="form-floating" style="width: 400px;">
+            <input type="email" class="form-control" id="correo" placeholder="email">
+            <label for="correo">Correo electrónico</label>
+          </div>
+
+          <div class="form-floating" style="width: 400px;">
+            <input type="password" class="form-control" id="contrasena" placeholder="Password">
+            <label for="contrasena">Contraseña</label>
+          </div>
+
+          <div class="form-floating" style="width: 400px;">
+            <textarea class="form-control" id="comentario"></textarea>
+            <label for="comentario">Comentario</label>
+          </div>
+
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalRegistro">
+            Registrarme
+          </button>
+        </div>
+
+        <h2 id="sub2">¿Por qué es importante Canadá?</h2>
+        <p id="parrafo2">
+          Canadá es importante por su economía fuerte y estable, su alta calidad de vida y su multiculturalidad...
+        </p>
+      </div>
+    </main>
+
+    <footer style="background-color: black; color: white; text-align: center; padding: 20px;">
+        <p>&copy; 2025 Conoce Canadá.</p>
+        <p>Contacto: info@conocecanada.com</p>
+    </footer>
+
+    <div class="modal fade" id="modalBienvenida" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border border-3 shadow-lg">
+          <div class="modal-header bg-warning">
+            <h5 class="modal-title">🎉 ¡Bienvenido a Canadá!</h5>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            Esperamos que disfrutes explorando la hermosa ciudad de Ottawa y todo lo que Canadá tiene para ofrecer.
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="modalRegistro" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border border-3 shadow">
+          <div class="modal-header bg-success text-white">
+            <h5 class="modal-title">✔ Registro exitoso</h5>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            ¡Gracias por registrarte! Pronto recibirás novedades sobre Canadá en tu correo.
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
